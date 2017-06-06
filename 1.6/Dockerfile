@@ -4,7 +4,7 @@ MAINTAINER Chanchai Junlouchai "neverlock@gmail.com"
 
 RUN apt-get update && apt-get install -y vim && apt-get install -y vim-nox &&apt-get clean 
 COPY vimrc /root/.vimrc
-COPY vim /root/.vim
+COPY vim-1 /root/.vim
 RUN echo "alias ls='ls --color'" >> /root/.bashrc
 RUN go get github.com/nsf/gocode
 RUN go get github.com/alecthomas/gometalinter
