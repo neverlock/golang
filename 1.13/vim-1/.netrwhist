@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/neverlock/hack'
+let g:netrw_dirhist_2='/Users/neverlock/king'
+let g:netrw_dirhist_3='/Users/neverlock'
+let g:netrw_dirhist_4='/Users/neverlock/King'
+let g:netrw_dirhist_5='/Users/neverlock/king'
+let g:netrw_dirhist_6='/Users/neverlock/Docker/Build/ocr/Worker'
+let g:netrw_dirhist_7='/Users/neverlock/hack'
+let g:netrw_dirhist_8='/Users/neverlock/Docker/Zynek/zynek-line/.git'
