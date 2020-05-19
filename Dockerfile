@@ -11,7 +11,7 @@ RUN go get github.com/alecthomas/gometalinter
 RUN go get golang.org/x/tools/cmd/goimports
 RUN go get golang.org/x/tools/cmd/guru
 RUN go get golang.org/x/tools/cmd/gorename
-RUN go get github.com/golang/lint/golint
+RUN go get golang.org/x/lint/golint
 RUN go get github.com/rogpeppe/godef
 RUN go get github.com/kisielk/errcheck
 RUN go get github.com/jstemmer/gotags
